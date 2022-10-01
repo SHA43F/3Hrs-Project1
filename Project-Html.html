@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="forms">
+        <label for="amtId">Amount: </label>
+        <input type="number" id="Amount" title="Amount" required><br><br>
+        <label for="descId">Description: </label>
+        <input type="text" id="Description" title="Description" required><br><br>
+        <label for="category">Category:</label>
+        <select name="categoryName" id="category">
+            <option value="Food" selected>Food</option>
+            <option value="Clothes">Clothes</option>
+            <option value="Bills">Bills</option>
+            <option value="Grocery">Grocery</option>
+        </select><br><br>
+        <input type="submit" id="subId" value="Add">
+    </form>
+    <ul class="expenseGroup" id="groupId"></ul>
+    <script src="Project.js"></script>
+</body>
+</html>
